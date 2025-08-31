@@ -20,11 +20,12 @@ To acquire **volatile memory (RAM)** and **non-volatile memory (disk image)** fr
 ---
 
 ### Step 2: Open Capture Memory Utility
-- In the **Menu Bar**, click **File → Capture Memory...**  
+- Below the **Menu Bar**, click **Capture Memory...**  
 
 <br>
 
-<img width="1919" height="1096" alt="image" src="https://github.com/user-attachments/assets/8b6eead1-d327-43b7-be00-1b081822ebe5" />
+<img width="1920" height="1080" alt="FTK1" src="https://github.com/user-attachments/assets/9b939af8-4e18-447d-8fa1-2047300f84bb" />
+
 
 <br>
 
