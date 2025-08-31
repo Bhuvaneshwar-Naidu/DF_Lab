@@ -43,7 +43,8 @@ In the pop-up dialog:
 
 <br>
 
-<img width="1918" height="1098" alt="image" src="https://github.com/user-attachments/assets/37f79f46-b802-4028-a10e-659874ebc6e2" />
+<img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/b07dbfed-d070-4037-ad52-03879e1e3c05" />
+
 
 ---
 
@@ -53,13 +54,20 @@ In the pop-up dialog:
 
 <br>
 
-<img width="1914" height="868" alt="image" src="https://github.com/user-attachments/assets/1194796f-767d-4e59-8e3a-5962823bdda1" />
+<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/1df681a5-3fdb-4c44-a4f9-7eb830c0524d" />
+
 
 ---
 
 ### Step 5: Completion
 - The `.mem` file will be created in the destination folder.  
-- Capture time depends on installed RAM size.  
+- Capture time depends on installed RAM size.
+
+<br>
+
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/df1137b0-dcea-4dda-b6aa-cf91620086a3" />
+
+
 
 ---
 
@@ -70,7 +78,8 @@ In the pop-up dialog:
 
 <br>
 
-<img width="1918" height="1066" alt="image" src="https://github.com/user-attachments/assets/479850a5-c2fb-4695-b830-2ab9dc3cc63d" />
+<img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/7f0d6320-a523-49ff-bc03-f6ed463dd4da" />
+
 
 ---
 
@@ -85,7 +94,8 @@ Choose based on requirement:
 
 <br>
 
-<img width="591" height="433" alt="image" src="https://github.com/user-attachments/assets/057d577e-5327-44e8-93b5-da3b5fca1fed" />
+<img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/93a58f63-3ef5-4f38-a2c5-5d14d5b65f81" />
+
 
 ---
 
@@ -95,22 +105,30 @@ Choose based on requirement:
 
 <br>
 
-<img width="583" height="428" alt="image" src="https://github.com/user-attachments/assets/7174ba85-f638-4ca5-b299-65dc9841d3ea" />
+<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/af7f2a1a-5d50-4513-a18e-9da3f6314bc3" />
+
 
 ---
 
-### Step 4: Configure Destination & Format
-- Click **Add...** to define image format and storage path.  
+### Step 4: Configure Destination & Format  
+- Click **Add...** to define image format and storage path.
+<img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/3b8623f6-45d9-463e-a7c4-f9ac46811dae" />  
+<br><br>
+
 - **Image Type:**  
   - `E01 (EnCase)` → Recommended (metadata + compression).  
-  - `RAW (dd)` → Bit-for-bit copy.  
-- Enter **Case Info**: Examiner, Case No., Notes.  
+  - `RAW (dd)` → Bit-for-bit copy.
+<img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/89f275dd-f350-4e76-8a99-b5e5188e9594" />  
+<br><br>
+
+- Enter **Case Info**: Examiner, Case No., Notes.
+<img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/8c8cfb43-1ec4-4475-b9d8-6ed614cb8d41" />  
+<br><br>
+
 - Set **Destination Folder** (different from source).  
 - **Fragment Size:** Set `0` for a single file.
-
-<br>
-
-<img width="505" height="405" alt="image" src="https://github.com/user-attachments/assets/e5d806b5-edda-4f57-a60b-e4c58b8fd343" />
+<img width="1920" height="1080" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/275c3c07-e4a3-4ba0-b495-d7cbf56d1973" />
+<br><br>
 
 ---
 
@@ -121,8 +139,9 @@ Choose based on requirement:
 <br>
 
 <p align="center">
-  <img width="300" alt="progress1" src="https://github.com/user-attachments/assets/739045f1-11bc-474a-9343-2e9aa19ec376" />
-  <img width="300" alt="progress2" src="https://github.com/user-attachments/assets/7bef2114-0017-4a7b-9e19-0f356c3e3236" />
+  <img width="646" height="567" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/6f9ccad3-94b2-4ca0-97eb-795580cf948e" />
+<img width="603" height="422" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/3bcf40e5-3f03-4063-a067-f8bc7fc64624" />
+
 </p>
 
 ---
@@ -130,6 +149,15 @@ Choose based on requirement:
 ### Step 6: Verify Integrity
 - On completion, FTK Imager displays **MD5/SHA1** hashes.  
 - If hashes match, the image is valid and unaltered.  
+
+<br>
+
+<p align="center">
+  <img width="606" height="432" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/2d5fabc2-5350-4bd7-95e9-bddb7f059a13" />
+<img width="744" height="563" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/d9e45263-634d-47ff-8d09-9356be888e45" />
+
+
+</p>
 
 ---
 
