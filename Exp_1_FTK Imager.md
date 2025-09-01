@@ -170,7 +170,7 @@ Choose based on requirement:
 ---
 
 ## 📚 References
-- [FTK Imager Official Download](https://accessdata.com/product-download/ftk-imager-version-4-5)  
+- [FTK Imager Official Download](https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81)  
 - AccessData Documentation  
 - Forensic Best Practices Guidelines  
 
