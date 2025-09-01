@@ -13,9 +13,13 @@ To capture plaintext **login credentials** transmitted over HTTP using **Wiresha
 <br>
 <br>
 <p align="center">
-  <img width="1919" height="1199" alt="Figure 1: Wireshark Interface Selection" src="IMAGE_LINK_HERE" />
+ <img width="1918" height="1197" alt="image" src="https://github.com/user-attachments/assets/a12941af-d2e9-47e7-bef0-89c3835e874d" />
+
 </p>
 <br>
+<p align="center">
+<img width="1916" height="1197" alt="image" src="https://github.com/user-attachments/assets/80aa0efc-0e0f-4184-b640-5162ea3ec74a" />
+</p>
 <br>
 
 ---
@@ -34,8 +38,8 @@ To capture plaintext **login credentials** transmitted over HTTP using **Wiresha
 <br>
 <br>
 <p align="center">
-  <!-- 🟩 Screenshot 2: Login form filled -->
-  <img width="1916" height="1149" alt="Login Form Example" src="IMAGE_LINK_HERE" />
+ <img width="1017" height="871" alt="image" src="https://github.com/user-attachments/assets/a3c7f719-eb84-4066-a9d8-7d554cb71d0d" />
+
 </p>
 <br>
 <br>
@@ -55,7 +59,8 @@ http.request.method == "POST"
 <br>
 <p align="center">
     <!-- 🟩 Screenshot 3: HTTP POST filter applied -->
-    <img width="1919" height="1199" alt="HTTP POST Filter Applied" src="IMAGE_LINK_HERE" />
+<img width="1919" height="551" alt="image" src="https://github.com/user-attachments/assets/e1b268e5-6514-4d18-887b-3d44b07d09bf" />
+
 </p>
 
 ## 🔹 Step 4: Inspect the POST Packet
@@ -70,7 +75,8 @@ You will see the submitted credentials in plaintext:
 <br>
 <br>
 <p align="center">
-    <img width="1919" height="1199" alt="Figure 4: Captured Credentials" src="IMAGE_LINK_HERE" />
+   <img width="1918" height="1158" alt="image" src="https://github.com/user-attachments/assets/9cd09009-8af5-4bfe-a3f2-74e9074d70ef" />
+
 </p>
 <br>
 <br>
@@ -88,9 +94,6 @@ This demonstrates that **HTTP is insecure**, as sensitive information is sent in
 
 ---
 
-## 📚 References
-- [Wireshark Official Documentation](https://www.wireshark.org/docs/)  
-- [HTTP Protocol Analysis](https://developer.mozilla.org/en-US/docs/Web/HTTP)  
 
 
 
