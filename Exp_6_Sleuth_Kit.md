@@ -68,7 +68,7 @@ cd C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\sleuthkit-4.14.0-win32
 #### 🔹 Identify File System Type
 Run:
 ```bash
-fsstat [image file] > filesystem_info.txt
+fsstat.exe -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01"
 ```
 This command gives details about the file system type, layout, and structure.
 
