@@ -26,8 +26,10 @@ It supports file system analysis, partition inspection, and timeline creation â€
 - Download and install **The Sleuth Kit (TSK)** for Windows from its [official website](https://www.sleuthkit.org/sleuthkit/download.php).  
 - Follow on-screen installation instructions.
 
-ðŸ“¸ *Screenshot 1: Sleuth Kit installation window or command prompt showing version*  
-`(Insert Screenshot Here)`
+---
+
+<img width="1919" height="1079" alt="1" src="https://github.com/user-attachments/assets/cb8d8d85-346e-42a0-81a8-0df9eab4f6eb" />
+
 
 ---
 
@@ -38,8 +40,6 @@ It supports file system analysis, partition inspection, and timeline creation â€
   - `4Dell Latitude CPi.E01`  
   - `4Dell Latitude CPi.E02`
 
-ðŸ“¸ *Screenshot 2: Evidence image files visible in directory*  
-`(Insert Screenshot Here)`
 
 ---
 
