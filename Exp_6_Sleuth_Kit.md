@@ -23,7 +23,7 @@ It supports file system analysis, partition inspection, and timeline creation �
 ## 📝 Steps
 
 ### Step 1: Installation
-- Download and install **The Sleuth Kit (TSK)** for Windows from its [official website](https://www.sleuthkit.org/).  
+- Download and install **The Sleuth Kit (TSK)** for Windows from its [official website](https://www.sleuthkit.org/sleuthkit/download.php).  
 - Follow on-screen installation instructions.
 
 📸 *Screenshot 1: Sleuth Kit installation window or command prompt showing version*  
