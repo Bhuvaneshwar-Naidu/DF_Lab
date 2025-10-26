@@ -80,7 +80,7 @@ This command gives details about the file system type, layout, and structure.
 #### 🔹 List Partitions
 Run:
 ```bash
-mmls [image file] > partitions.txt
+mmls.exe "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01"
 ```
 This lists all partitions present in the disk image.
 
