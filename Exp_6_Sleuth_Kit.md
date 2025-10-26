@@ -54,6 +54,17 @@ It supports file system analysis, partition inspection, and timeline creation �
 
 ### Step 4: Analyze the File System
 
+#### 🔹 Navigate to Sleuth Kit
+Run:
+```bash
+cd C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\sleuthkit-4.14.0-win32\bin
+```
+
+📸 *Screenshot 4: Output of fsstat command in Command Prompt*  
+`(Insert Screenshot Here)`
+
+---
+
 #### 🔹 Identify File System Type
 Run:
 ```bash
