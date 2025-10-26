@@ -47,57 +47,54 @@ It supports file system analysis, partition inspection, and timeline creation �
 - Use **OSFMount** to mount the `.E01` or `.dd` image as a virtual drive.  
 - This helps in manually browsing the contents if needed.
 
-📸 *Screenshot 3: OSFMount showing mounted image*  
-`(Insert Screenshot Here)`
 
 ---
 
 ### Step 4: Analyze the File System
 
-#### 🔹 Navigate to Sleuth Kit
+#### 🔹 Navigate to Sleuth Kit:
 Run:
 ```bash
 cd C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\sleuthkit-4.14.0-win32\bin
 ```
 
-📸 *Screenshot 4: Output of fsstat command in Command Prompt*  
-`(Insert Screenshot Here)`
+<img width="1479" height="771" alt="2" src="https://github.com/user-attachments/assets/2dc048db-6101-4e55-994f-47b49da9c97e" />
 
 ---
 
-#### 🔹 Identify File System Type
+#### 🔹 Identify File System Type:
 Run:
 ```bash
 fsstat.exe -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01"
 ```
 This command gives details about the file system type, layout, and structure.
 
-📸 *Screenshot 4: Output of fsstat command in Command Prompt*  
-`(Insert Screenshot Here)`
+<img width="1488" height="922" alt="3" src="https://github.com/user-attachments/assets/206f9a59-733d-495f-a8f9-0062ec3f9506" />
+
 
 ---
 
-#### 🔹 List Partitions
+#### 🔹 List Partitions:
 Run:
 ```bash
 mmls.exe "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01"
 ```
 This lists all partitions present in the disk image.
 
-📸 *Screenshot 5: mmls output showing partitions*  
-`(Insert Screenshot Here)`
+<img width="1482" height="759" alt="4" src="https://github.com/user-attachments/assets/c46c0fcb-3b0b-4a4d-a349-fd88ceb913f6" />
+
 
 ---
 
 #### 🔹 List Files and Directories
 Run:
 ```bash
-fls -r [image file] > file_list.txt
+fls.exe -r -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01"
 ```
 This recursively lists all files and directories, including deleted ones.
 
-📸 *Screenshot 6: fls command output showing file and inode list*  
-`(Insert Screenshot Here)`
+<img width="1237" height="920" alt="5" src="https://github.com/user-attachments/assets/db85b4f2-b476-44d1-8c89-c6e5695e90ed" />
+
 
 ---
 
