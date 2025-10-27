@@ -1,0 +1,139 @@
+# Ex. No. 7: Use AFLogical OSE to Extract Data from an Android Device
+
+---
+
+## 🎯 Aim
+To extract logical data such as contacts, messages, and call logs from an Android device using **AFLogical OSE (Open Source Edition)** for forensic analysis.
+
+---
+
+## 📌 Description
+**AFLogical OSE** is part of the Open Source Android Forensics project, designed to perform **logical extraction** from Android devices.  
+It allows investigators to pull user data — such as **contacts, SMS, MMS, and call logs** — without requiring direct access to the Android file system.
+
+---
+
+## 🧰 Step 1: Prepare Your Environment
+
+### 1️⃣ Download AFLogical OSE
+- Visit the official **AFLogical OSE GitHub page** and download the latest release.  
+- Alternatively, clone the repository using Git.
+
+### 2️⃣ Install Java
+- AFLogical OSE requires **Java** to run.  
+- Download and install Java from the [official Java website](https://www.oracle.com/java/technologies/javase-downloads.html).
+
+### 3️⃣ Install Android Debug Bridge (ADB)
+- Download **ADB** from the [Android Developer’s website](https://developer.android.com/studio/releases/platform-tools).  
+- Install and add ADB to your **system PATH** to execute ADB commands globally.
+
+### 4️⃣ Enable USB Debugging on the Android Device
+- On the Android device:  
+  1. Go to **Settings → About Phone**.  
+  2. Tap **Build Number** seven times to enable **Developer Options**.  
+  3. Go to **Settings → Developer Options → Enable USB Debugging**.
+
+---
+
+## 🔌 Step 2: Connect the Android Device to Your Computer
+
+### Connect via USB
+- Use a USB cable to connect the Android device to your computer.
+
+### Verify ADB Connection
+Run the following command to check if the device is connected properly:
+
+```bash
+adb devices
+```
+
+**Expected Output:**
+```
+List of devices attached
+1234567890ABCDEF    device
+```
+If your device is listed, you are ready to proceed.
+
+---
+
+## 🧾 Step 3: Extract Data Using AFLogical OSE
+
+### 1️⃣ Install AFLogical OSE APK on the Device
+Navigate to the directory containing the AFLogical APK and install it using:
+
+```bash
+adb install aflogical.apk
+```
+
+### 2️⃣ Launch the AFLogical App on the Device
+- On your Android device, open the **AFLogical** app.  
+- You will see options to extract data such as:
+  - Contacts  
+  - SMS  
+  - MMS  
+  - Call Logs  
+- Select the data types you want to extract.
+
+### 3️⃣ Start Data Extraction
+- After selecting the data categories, the app begins extraction.  
+- Extracted data will be stored in **CSV format** under the `/sdcard/aflogical/` directory.
+
+---
+
+## 💾 Step 4: Transfer Extracted Data to Your Computer
+
+Use **ADB pull** to copy the extracted data from the device to your PC:
+
+```bash
+adb pull /sdcard/aflogical /path/to/destination
+```
+
+🔹 Replace `/path/to/destination` with your preferred folder path on your computer.
+
+**Example:**
+```bash
+adb pull /sdcard/aflogical C:\Users\Manya\Downloads\ExtractedData
+```
+
+Verify the transfer by checking that the `.csv` files (e.g., `contacts.csv`, `sms.csv`, `calllogs.csv`) are present in the destination directory.
+
+---
+
+## 📊 Step 5: Analyze the Extracted Data
+
+### Open and Review Data
+- Use **Excel**, **Google Sheets**, or any **CSV viewer** to open and analyze the files.  
+- Each file represents a category of extracted information:
+  - `contacts.csv` → Contact list  
+  - `sms.csv` → Text messages  
+  - `calllogs.csv` → Call history  
+
+### Document Your Findings
+- Review relevant data for forensic insights.  
+- Summarize findings in a **forensic report** for documentation and evidence handling.
+
+---
+
+## 🧹 Step 6: Clean Up
+
+### Uninstall AFLogical OSE
+After completing extraction, uninstall the app from the device:
+
+```bash
+adb uninstall com.viaforensics.android.aflogical
+```
+
+### Safely Disconnect the Device
+- Once data extraction and transfer are complete, safely disconnect the Android device from your computer.
+
+---
+
+## ✅ Result
+Successfully used **AFLogical OSE** to perform logical data extraction from an Android device, retrieved `.csv` files containing forensic evidence, and analyzed the data for investigation.
+
+---
+
+## 📚 References
+- [AFLogical OSE GitHub Repository](https://github.com/nowsecure/AFLogical-Open-Source)  
+- [Android Developer Documentation](https://developer.android.com/studio/command-line/adb)  
+- [Open Source Android Forensics Project](https://github.com/nowsecure)  
