@@ -101,7 +101,7 @@ This recursively lists all files and directories, including deleted ones.
 #### 🔹 Recover Deleted Files
 Run:
 ```bash
-icat [image file] [inode number] > recovered_file.txt
+icat.exe -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01" 11366 > C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\recovered_file.jpg
 ```
 Replace `[inode number]` with the value obtained from the `fls` command output.
 
