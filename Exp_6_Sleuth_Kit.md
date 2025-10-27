@@ -111,14 +111,15 @@ icat.exe -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Lat
 ### Step 5: Analyze Metadata
 Use the `istat` command to extract metadata of a specific file:
 ```bash
-istat [image file] [inode number] > metadata_info.txt
+istat.exe -o 63  "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01" 11366 > C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\recovered_file.txt
 ```
 This provides information such as:
 - File creation, modification, and access timestamps  
 - File size and allocation status  
 
-📸 *Screenshot 8: istat command output showing file metadata*  
-`(Insert Screenshot Here)`
+![7](https://github.com/user-attachments/assets/2b810d1c-c2b0-46de-9fa7-724d7888bc7b)
+
+
 
 ---
 
@@ -127,8 +128,10 @@ Generate a chronological timeline of file system activity.
 
 1. Create a **body file**:
    ```bash
-   fls -m / -r [image file] > body.txt
+   fls.exe -m / -r -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01" > C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\body.txt
    ```
+   ![8](https://github.com/user-attachments/assets/669c3048-045d-4c3f-98e0-bd9955589710)
+
 2. Generate the **timeline**:
    ```bash
    mactime -b body.txt > timeline.txt
@@ -136,8 +139,6 @@ Generate a chronological timeline of file system activity.
 
 This file lists the **MAC (Modified, Accessed, Changed)** timestamps of all files.
 
-📸 *Screenshot 9: timeline.txt showing chronological events*  
-`(Insert Screenshot Here)`
 
 ---
 
@@ -155,8 +156,6 @@ This file lists the **MAC (Modified, Accessed, Changed)** timestamps of all file
    - File metadata insights  
    - Activity timeline (if available)
 
-📸 *Screenshot 10: Folder view showing all generated result files*  
-`(Insert Screenshot Here)`
 
 ---
 
@@ -165,8 +164,6 @@ This file lists the **MAC (Modified, Accessed, Changed)** timestamps of all file
 - Maintain the **chain of custody** to ensure evidence integrity.  
 - Store archives in a **secure and access-controlled** environment.
 
-📸 *Screenshot 11: Archived evidence folder (ZIP/RAR) showing final stored data*  
-`(Insert Screenshot Here)`
 
 ---
 
