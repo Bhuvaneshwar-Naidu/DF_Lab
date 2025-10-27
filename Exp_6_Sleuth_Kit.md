@@ -103,10 +103,8 @@ Run:
 ```bash
 icat.exe -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01" 11366 > C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\recovered_file.jpg
 ```
-Replace `[inode number]` with the value obtained from the `fls` command output.
+<img width="1289" height="667" alt="6" src="https://github.com/user-attachments/assets/945bc934-3a5c-4dd2-8293-07e5d86c13de" />
 
-📸 *Screenshot 7: icat command recovering deleted file*  
-`(Insert Screenshot Here)`
 
 ---
 
