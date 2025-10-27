@@ -1,4 +1,4 @@
-# 🧪 **Ex.No.7: Use AFLogical OSE to Extract Data from an Android Device**
+#**Ex.No.7: Use AFLogical OSE to Extract Data from an Android Device**
 
 ---
 
