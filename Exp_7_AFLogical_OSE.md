@@ -115,6 +115,7 @@ To confirm a stable and authorized link between your computer and the Android de
    adb devices
    ```
 3. Tap **Allow** on the phone if prompted for debugging authorization.
+<img width="1033" height="202" alt="Screenshot 2025-10-28 132602" src="https://github.com/user-attachments/assets/627e393a-5ee3-448f-aa72-4fa8b6853164" />
 
 ###  **Troubleshooting**
 If the device shows as *unauthorized*, replug it and reauthorize USB debugging.
