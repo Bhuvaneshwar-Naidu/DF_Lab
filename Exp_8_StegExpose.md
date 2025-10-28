@@ -16,6 +16,7 @@ To detect the presence of hidden data within digital images using **StegExpose**
 1. Visit the **StegExpose GitHub page** and download the `.jar` file.  
 2. Ensure **Java** is installed on your system. If not, download it from [Oracle’s official website](https://www.oracle.com/java/technologies/javase-downloads.html).  
 3. Place the `StegExpose.jar` file in your working directory (e.g., `C:\DF\StegExpose\`).
+4. Or you run it online, using any Steganography tools available online.
 <img width="971" height="650" alt="1" src="https://github.com/user-attachments/assets/5150500a-ebe2-42b8-8a06-f9580a65b74d" />
 
 ---
