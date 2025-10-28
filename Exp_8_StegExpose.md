@@ -21,9 +21,10 @@ To detect the presence of hidden data within digital images using **StegExpose**
 
 ---
 
-### **Step2️: Select Images for Analysis**
-- Collect images you suspect might contain hidden data.  
-- Supported formats include `.png`, `.jpg`, and `.bmp`.
+### **Step2️: Select Images for Encrytion**
+- Select the file you want to hide data.
+- Give the message you want to encrypt in the file. 
+- Supported formats include `.png`, `.jpg`, `.bmp` and `.pdf`.
 <img width="957" height="864" alt="2" src="https://github.com/user-attachments/assets/64f2954d-3eae-4ba0-b49b-663bbfcf6194" />
 
 ---
@@ -50,14 +51,12 @@ To detect the presence of hidden data within digital images using **StegExpose**
 
 ```
 
----
-
 ## ✅ **Result**
 Successfully used **StegExpose** to perform steganalysis on images, identified potential hidden data through suspect scores, and interpreted the likelihood of steganography based on the tool’s statistical output.
 
 ---
 
-## 🧾 **Notes (Optional)**
+## 🧾 **Notes**
 - Ensure images are unaltered before analysis for accurate results.  
 - Use a consistent file format during testing to avoid false positives.  
 - Results should be verified with additional forensic tools if necessary.
