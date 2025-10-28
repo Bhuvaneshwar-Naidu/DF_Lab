@@ -86,6 +86,8 @@ Run:
 ```bash
 adb devices
 ```
+<img width="1033" height="202" alt="Screenshot 2025-10-28 132602" src="https://github.com/user-attachments/assets/919c87af-377d-4969-a4c0-c2b254dcc659" />
+
 Device should be listed as **“device”**, not *offline* or *unauthorized*.
 
 ---
