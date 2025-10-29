@@ -28,6 +28,7 @@ By analyzing this data, investigators can determine if a process is legitimate o
      - `procexp64.exe` for 64-bit systems  
      - `procexp.exe` for 32-bit systems  
    - Right-click and select **Run as Administrator** to ensure full privileges.
+<img width="622" height="397" alt="Screenshot 2025-10-28 164411" src="https://github.com/user-attachments/assets/97bfcebf-dcae-46b2-a100-68d137eab64b" />
 
 ---
 
@@ -83,6 +84,7 @@ By analyzing this data, investigators can determine if a process is legitimate o
 ### **6️⃣ Check Network Activity**
 - Right-click process → **Properties → TCP/IP Tab**.  
 - Monitor for unexpected network connections to unknown IPs.
+<img width="984" height="737" alt="Screenshot 2025-10-28 164425" src="https://github.com/user-attachments/assets/efac2950-6c8b-4d10-ad59-363bd6322b31" />
 
 ---
 
@@ -111,6 +113,7 @@ By analyzing this data, investigators can determine if a process is legitimate o
   Locate the file via **Path** and delete it if confirmed malicious.
 
 > ⚠️ *Note:* Some malware prevents termination. In such cases, reboot into **Safe Mode** or use antivirus tools.
+<img width="981" height="741" alt="Screenshot 2025-10-28 164455" src="https://github.com/user-attachments/assets/e7d8238e-bf11-4b2b-b05d-00037dc0301c" />
 
 ---
 
@@ -121,15 +124,11 @@ By analyzing this data, investigators can determine if a process is legitimate o
   - Windows Defender
   - Malwarebytes Anti-Malware
 - Remove quarantined threats and restart the system.
+<img width="974" height="741" alt="Screenshot 2025-10-28 164558" src="https://github.com/user-attachments/assets/c655bbf8-9dd7-486e-8cfa-8faa93451c71" />
 
 ---
 
 ## 🧾 **Example — Identifying a Malicious Process**
-
-### **Scenario**
-- You observe `randomname123.exe` consuming excessive CPU.
-- Path: `C:\Users\Admin\Temp\randomname123.exe`
-- No valid signature and multiple outbound TCP connections.
 
 ### **Action Taken**
 - Suspended → Killed the process  
