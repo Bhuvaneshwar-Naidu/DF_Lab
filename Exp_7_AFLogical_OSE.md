@@ -50,7 +50,7 @@ To make `adb` commands accessible from any terminal or command prompt without sp
    ```bash
    C:\DF\platform-tools
    ```
-   <img width="596" height="664" alt="Screenshot 2025-10-27 232721" src="https://github.com/user-attachments/assets/143e5f13-9012-4cdc-82d4-94ecb3fb2414" />
+   <img width="500" alt="Screenshot 2025-10-27 232721" src="https://github.com/user-attachments/assets/143e5f13-9012-4cdc-82d4-94ecb3fb2414" />
 
 4. Click **OK** to apply.
 
@@ -59,7 +59,7 @@ Run:
 ```bash
 adb version
 ```
-<img width="1484" height="760" alt="2" src="https://github.com/user-attachments/assets/d29b009f-2d41-4825-b968-2ee839c5e29b" />
+<img width="500" alt="2" src="https://github.com/user-attachments/assets/d29b009f-2d41-4825-b968-2ee839c5e29b" />
 
 **Expected Output:**  
 Displays the installed **Android Debug Bridge version**.
@@ -86,7 +86,7 @@ Run:
 ```bash
 adb devices
 ```
-<img width="1033" height="202" alt="Screenshot 2025-10-28 132602" src="https://github.com/user-attachments/assets/919c87af-377d-4969-a4c0-c2b254dcc659" />
+<img width="500" alt="Screenshot 2025-10-28 132602" src="https://github.com/user-attachments/assets/919c87af-377d-4969-a4c0-c2b254dcc659" />
 
 Device should be listed as **“device”**, not *offline* or *unauthorized*.
 
@@ -115,7 +115,7 @@ To confirm a stable and authorized link between your computer and the Android de
    adb devices
    ```
 3. Tap **Allow** on the phone if prompted for debugging authorization.
-<img width="1033" height="202" alt="Screenshot 2025-10-28 132602" src="https://github.com/user-attachments/assets/627e393a-5ee3-448f-aa72-4fa8b6853164" />
+<img width="500" alt="Screenshot 2025-10-28 132602" src="https://github.com/user-attachments/assets/627e393a-5ee3-448f-aa72-4fa8b6853164" />
 
 ###  **Troubleshooting**
 If the device shows as *unauthorized*, replug it and reauthorize USB debugging.
@@ -187,6 +187,8 @@ The folder should contain files like:
 - `sms.csv`
 - `calllogs.csv`
 - `calendar.csv`
+<img width="500" alt="Screenshot 2025-10-28 132602" src="https://github.com/user-attachments/assets/5e63decb-0d69-46ef-b947-4ba6cc783ffa" />
+
 
 
 ---
