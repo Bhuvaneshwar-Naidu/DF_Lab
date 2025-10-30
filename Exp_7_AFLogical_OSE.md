@@ -50,7 +50,8 @@ To make `adb` commands accessible from any terminal or command prompt without sp
    ```bash
    C:\DF\platform-tools
    ```
-   <img width="500" alt="Screenshot 2025-10-27 232721" src="https://github.com/user-attachments/assets/143e5f13-9012-4cdc-82d4-94ecb3fb2414" />
+   <img width="500" alt="1" src="https://github.com/user-attachments/assets/97688cbf-1dfa-4387-81c5-2e58ca4110e4" />
+
 
 4. Click **OK** to apply.
 
@@ -59,7 +60,8 @@ Run:
 ```bash
 adb version
 ```
-<img width="500" alt="2" src="https://github.com/user-attachments/assets/d29b009f-2d41-4825-b968-2ee839c5e29b" />
+<img width="500" alt="2" src="https://github.com/user-attachments/assets/da71ecc2-981b-4a09-b059-4213530993a7" />
+
 
 **Expected Output:**  
 Displays the installed **Android Debug Bridge version**.
