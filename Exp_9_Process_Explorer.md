@@ -1,15 +1,8 @@
 
 # **Ex.No.9: Use Process Explorer to Identify Suspicious Processes**
 
-## 🎯 **Aim**
+## **Aim**
 To identify and analyze suspicious or potentially malicious processes running on a Windows system using **Process Explorer**, a tool from Microsoft Sysinternals Suite.
-
----
-
-## 📘 **Description**
-**Process Explorer** is a powerful Windows utility that provides in-depth information about running processes.  
-It allows users to monitor process behavior, verify digital signatures, check resource usage, and detect potentially harmful activities.  
-By analyzing this data, investigators can determine if a process is legitimate or malicious.
 
 ---
 
@@ -37,11 +30,11 @@ By analyzing this data, investigators can determine if a process is legitimate o
 ### **Key Components**
 - **Process Tree:** Displays hierarchical structure of running processes.  
 - **Color Codes:**
-  - 🟣 Pink → Suspended processes  
-  - 🔵 Light Blue → Processes under the current user  
-  - 🔷 Dark Blue → System or service processes  
-  - 🟢 Green → Newly created processes  
-  - 🔴 Red → Recently exited processes  
+  - Pink → Suspended processes  
+  - Light Blue → Processes under the current user  
+  - Dark Blue → System or service processes  
+  - Green → Newly created processes  
+  - Red → Recently exited processes  
 
 ### **Columns Overview**
 - **PID:** Process ID number  
@@ -53,17 +46,17 @@ By analyzing this data, investigators can determine if a process is legitimate o
 
 ## **STEP 3 — Identify Suspicious Processes**
 
-### **1️⃣ Look for Unfamiliar Processes**
+### **1️ Look for Unfamiliar Processes**
 - Review all running processes and identify unknown or oddly named ones.
 - Malware often disguises itself using similar names to legitimate processes.
 
-### **2️⃣ Verify Digital Signatures**
+### **2️ Verify Digital Signatures**
 - Right-click a process → **Properties → Image Tab → Verify**.  
 - Check for a valid **Digital Signature**.  
-  - ✅ Valid Signature → Legitimate software  
-  - ⚠️ No/Invalid Signature → Potentially malicious
+  -  Valid Signature → Legitimate software  
+  -  No/Invalid Signature → Potentially malicious
 
-### **3️⃣ Check Process Path**
+### **3️ Check Process Path**
 - In the **Properties → Image Tab**, review the file path.  
   - Legitimate processes reside in:  
     ```bash
@@ -74,14 +67,14 @@ By analyzing this data, investigators can determine if a process is legitimate o
     - User download folders  
     - Unknown directories
 
-### **4️⃣ Monitor Resource Usage**
+### **4️ Monitor Resource Usage**
 - Observe CPU, Memory, and Disk columns.  
 - Abnormally high or fluctuating usage could signal malware.
 
-### **5️⃣ Review Description & Company Name**
+### **5️ Review Description & Company Name**
 - Missing or misleading information may indicate fake or rogue software.
 
-### **6️⃣ Check Network Activity**
+### **6️ Check Network Activity**
 - Right-click process → **Properties → TCP/IP Tab**.  
 - Monitor for unexpected network connections to unknown IPs.
 <img width="984" height="737" alt="Screenshot 2025-10-28 164425" src="https://github.com/user-attachments/assets/efac2950-6c8b-4d10-ad59-363bd6322b31" />
@@ -112,7 +105,7 @@ By analyzing this data, investigators can determine if a process is legitimate o
 - **Delete Source File:**  
   Locate the file via **Path** and delete it if confirmed malicious.
 
-> ⚠️ *Note:* Some malware prevents termination. In such cases, reboot into **Safe Mode** or use antivirus tools.
+>  *Note:* Some malware prevents termination. In such cases, reboot into **Safe Mode** or use antivirus tools.
 <img width="981" height="741" alt="Screenshot 2025-10-28 164455" src="https://github.com/user-attachments/assets/e7d8238e-bf11-4b2b-b05d-00037dc0301c" />
 
 ---
@@ -128,7 +121,7 @@ By analyzing this data, investigators can determine if a process is legitimate o
 
 ---
 
-## 🧾 **Example — Identifying a Malicious Process**
+##  **Example — Identifying a Malicious Process**
 
 ### **Action Taken**
 - Suspended → Killed the process  
@@ -139,19 +132,12 @@ By analyzing this data, investigators can determine if a process is legitimate o
 
 ---
 
-## ✅ **Result**
+## **Result**
 Successfully utilized **Process Explorer** to monitor and analyze system processes, identify suspicious activities, and mitigate potential malware threats.
 
 ---
 
-## **Notes**
-- Regularly monitor background processes.  
-- Keep antivirus software updated.  
-- Always verify unknown processes before taking action.
 
----
-
-## 📚 **References**
 - 🔗 [Microsoft Sysinternals Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)  
 - 🔗 [VirusTotal — Online Malware Scanner](https://www.virustotal.com/)  
 - 🔗 [ProcessLibrary — Process Database](https://www.processlibrary.com/)  
