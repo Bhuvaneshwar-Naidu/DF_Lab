@@ -7,7 +7,7 @@ To perform a forensic investigation using **Autopsy**, by creating a case, impor
 
 ---
 
-## 📝 Steps
+## Steps
 
 ### Step 1: Installation
 - **Download & Install** Autopsy from the [official website](https://www.autopsy.com/).  
