@@ -77,7 +77,7 @@ To identify and analyze suspicious or potentially malicious processes running on
 ### **6️ Check Network Activity**
 - Right-click process → **Properties → TCP/IP Tab**.  
 - Monitor for unexpected network connections to unknown IPs.
-<img width="400" alt="Screenshot 2025-10-28 164425" src="https://github.com/user-attachments/assets/efac2950-6c8b-4d10-ad59-363bd6322b31" />
+<img width="500" alt="Screenshot 2025-10-28 164425" src="https://github.com/user-attachments/assets/efac2950-6c8b-4d10-ad59-363bd6322b31" />
 
 ---
 
