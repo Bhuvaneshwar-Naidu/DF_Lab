@@ -9,7 +9,7 @@ To use **TestDisk** step-by-step to recover a missing partition, repair a corrup
 
 ### Log Creation
 - When TestDisk starts, Select the [Create] option to generate a log file of the recovery session. This is helpful for future reference or troubleshooting.  
-<img width="500" alt="Test_Disk1" src="https://github.com/user-attachments/assets/4e0689a7-16c4-41cd-b2bc-65dfa7f9552e" />
+<img width="400" alt="Test_Disk1" src="https://github.com/user-attachments/assets/4e0689a7-16c4-41cd-b2bc-65dfa7f9552e" />
 
 <br>
 <br>
@@ -108,6 +108,16 @@ Now the boot sector and backup are identical, meaning recovery succeeded.
 
 
 ---
+# Rubrics
+| Criteria | Mark Allotted | Mark Awarded |
+|---|:---:|:---:|
+| 1. GitHub Activity & Submission Regularity | 3 | |
+| 2. Application of Forensic Tools & Practical Execution | 3 | |
+| 3. Documentation & Reporting | 2 | |
+| 4. Engagement, Problem-Solving & Team Collaboration | 2 | |
+| Total | 10 | |
+
+--- 
 
 ##  **Result**
 Successfully acquired the **RAM dump (.mem)** and **disk image (.E01)** of the target system using **FTK Imager**.  
