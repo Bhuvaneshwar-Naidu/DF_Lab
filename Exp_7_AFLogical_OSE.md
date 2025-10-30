@@ -171,7 +171,6 @@ To transfer the extracted `.csv` data from the Android device to your computer.
 ```bash
 adb pull /sdcard/aflogical C:\Users\Manya\Downloads
 ```
-<br><br>
 
 ###  **Verification**
 Extracted files will be saved in:
@@ -189,9 +188,6 @@ The folder should contain files like:
 
 <br><br>
 
----
-
-<br><br>
 ---
 
 # Rubrics
