@@ -2,18 +2,8 @@
 
 ---
 
-## 🎯 Aim
+## Aim
 To perform a forensic investigation using **Autopsy**, by creating a case, importing evidence, analyzing artifacts, and generating a forensic report.
-
----
-
-## 📌 Description
-Autopsy is an open-source **digital forensics platform** used for analyzing and extracting data from digital devices.  
-It supports disk image analysis, keyword searches, timeline analysis, and reporting, making it a widely used tool in forensic investigations.  
-
-📂 **Drive Link for Tools & Evidence Files**  
-- [Digital Forensics Softwares, Tools](https://drive.google.com/drive/u/1/folders/1ilSFY7Tqn2L7AjQGhq8yJ8kixc_xTU-v)  
-- Files: `4Dell Latitude CPi.E01`, `4Dell Latitude CPi.E02`
 
 ---
 
@@ -29,7 +19,7 @@ It supports disk image analysis, keyword searches, timeline analysis, and report
 - Open **Autopsy**.  
 - Click **New Case**.
 <br>
-  <img width="1712" height="1080" alt="image" src="https://github.com/user-attachments/assets/2a20e0d8-508c-4829-8ac6-7598d6dd5642" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/2a20e0d8-508c-4829-8ac6-7598d6dd5642" />
 <br>
 
 - Enter:
@@ -39,9 +29,9 @@ It supports disk image analysis, keyword searches, timeline analysis, and report
 - Click **Next** to proceed.
 
 <br>
-<img width="772" height="465" alt="image" src="https://github.com/user-attachments/assets/635ac98b-95d5-441a-85df-b25b39fa920e" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/635ac98b-95d5-441a-85df-b25b39fa920e" />
 <br>
-<img width="756" height="452" alt="image" src="https://github.com/user-attachments/assets/a6df0624-d439-4187-a8ea-583dee97da7e" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a6df0624-d439-4187-a8ea-583dee97da7e" />
 <br>
 
 ---
@@ -55,7 +45,7 @@ It supports disk image analysis, keyword searches, timeline analysis, and report
   - Local disks  
 - Browse and select the image file (e.g., `4Dell Latitude CPi.E01`, `4Dell Latitude CPi.E02`).
   <br>
-  <img width="896" height="556" alt="image" src="https://github.com/user-attachments/assets/c0481c08-433e-405e-b524-dc7327e6351a" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/c0481c08-433e-405e-b524-dc7327e6351a" />
   <br>
 - **Configure Ingest Modules**:
   - File Type Identification  
@@ -64,7 +54,7 @@ It supports disk image analysis, keyword searches, timeline analysis, and report
   - (Enable/disable as per requirement)  
 - Click **Next** to start the analysis.
   <br>
-  <img width="874" height="553" alt="image" src="https://github.com/user-attachments/assets/06a0b5a4-d4b3-4e97-a350-c1e6b16f2263" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/06a0b5a4-d4b3-4e97-a350-c1e6b16f2263" />
   <br>
 
 ---
@@ -77,7 +67,7 @@ It supports disk image analysis, keyword searches, timeline analysis, and report
   - Communication records  
 - **Tree Viewer**: Navigate through File System, Web History, Email, etc.
   <br>
-  <img width="1715" height="1066" alt="image" src="https://github.com/user-attachments/assets/0b3245db-9acb-49be-bf2a-5107f262a3df" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/0b3245db-9acb-49be-bf2a-5107f262a3df" />
   <br>
 
 ---
@@ -88,7 +78,7 @@ It supports disk image analysis, keyword searches, timeline analysis, and report
 - **Timeline Analysis**: Visualize user activity across time.  
 - **Hash Analysis**: Compare with known hash databases (good/bad files).
 <br>
-<img width="1715" height="1061" alt="image" src="https://github.com/user-attachments/assets/7f3193bf-6ce7-4ccb-a1e1-a1f9614226f1" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/7f3193bf-6ce7-4ccb-a1e1-a1f9614226f1" />
 <br>
 ---
 
@@ -97,7 +87,7 @@ It supports disk image analysis, keyword searches, timeline analysis, and report
 - Choose report type: HTML, CSV, Excel, etc.  
 - Select which parts of analysis to include.
 <br>
-<img width="711" height="447" alt="image" src="https://github.com/user-attachments/assets/db37d30b-7505-4e73-ba31-7ac9495ff0f3" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/db37d30b-7505-4e73-ba31-7ac9495ff0f3" />
 <br>
 - Export findings (files or artifacts).  
 - Review and finalize the report.  
@@ -108,26 +98,25 @@ It supports disk image analysis, keyword searches, timeline analysis, and report
 - Close the case in Autopsy.  
 - Archive data & reports as per organizational policy.
 <br>
-<img width="1919" height="1050" alt="image" src="https://github.com/user-attachments/assets/efddac57-e6d5-446f-9a71-fcf6cee05561" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/efddac57-e6d5-446f-9a71-fcf6cee05561" />
 <br>
+
 ---
 
+# Rubrics
+| Criteria | Mark Allotted | Mark Awarded |
+|---|:---:|:---:|
+| 1. GitHub Activity & Submission Regularity | 3 | |
+| 2. Application of Forensic Tools & Practical Execution | 3 | |
+| 3. Documentation & Reporting | 2 | |
+| 4. Engagement, Problem-Solving & Team Collaboration | 2 | |
+| Total | 10 | |
 
+---
 
-## ✅ Result
+## Result
 Successfully created a case in Autopsy, imported a forensic disk image, analyzed artifacts, and generated a forensic report.  
 
 ---
 
-## 📌 Notes
-- Autopsy is widely used in **digital forensic investigations**.  
-- Always maintain **chain of custody** and follow organizational policies.  
-- Forensic reports must be handled securely to ensure evidence integrity.  
-
----
-
-## 📚 References
-- [Autopsy Official Website](https://www.autopsy.com/)  
-- [Sleuth Kit Documentation](https://www.sleuthkit.org/)  
-- Digital Forensics Training Resources  
 
