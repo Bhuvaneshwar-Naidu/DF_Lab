@@ -135,8 +135,7 @@ Choose based on requirement:
 <br>
 
 <p align="center">
-  <img width="500" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/6f9ccad3-94b2-4ca0-97eb-795580cf948e" />  
-  
+  <img width="500" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/6f9ccad3-94b2-4ca0-97eb-795580cf948e" /><br><br>  
 <img width="500" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/3bcf40e5-3f03-4063-a067-f8bc7fc64624" />
 
 </p>
@@ -150,8 +149,7 @@ Choose based on requirement:
 <br>
 
 <p align="center">
-  <img width="500" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/2d5fabc2-5350-4bd7-95e9-bddb7f059a13" />  
-  
+  <img width="500" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/2d5fabc2-5350-4bd7-95e9-bddb7f059a13" /><br><br>
 <img width="500" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/d9e45263-634d-47ff-8d09-9356be888e45" />
 
 
