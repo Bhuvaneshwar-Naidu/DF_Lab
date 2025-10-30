@@ -85,16 +85,3 @@ This demonstrates that **HTTP is insecure**, as sensitive information is sent in
 ---
 
 
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-
