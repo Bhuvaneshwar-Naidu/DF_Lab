@@ -43,7 +43,7 @@ To make `adb` commands accessible from any terminal or command prompt without sp
    ```bash
    C:\DF\platform-tools
    ```
-   <img width="500" alt="1" src="https://github.com/user-attachments/assets/97688cbf-1dfa-4387-81c5-2e58ca4110e4" />
+   <img width="400" alt="1" src="https://github.com/user-attachments/assets/97688cbf-1dfa-4387-81c5-2e58ca4110e4" />
 
 
 4. Click **OK** to apply.
