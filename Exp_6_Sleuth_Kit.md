@@ -7,7 +7,7 @@ To analyze a disk image and recover digital evidence using **The Sleuth Kit (TSK
 
 ---
 
-## 📝 Steps
+## Steps
 
 ### Step 1: Installation
 - Download and install **The Sleuth Kit (TSK)** for Windows from its [official website](https://www.sleuthkit.org/sleuthkit/download.php).  
