@@ -104,7 +104,8 @@ This provides information such as:
 - File creation, modification, and access timestamps  
 - File size and allocation status  
 
-![7](https://github.com/user-attachments/assets/2b810d1c-c2b0-46de-9fa7-724d7888bc7b)
+<img width="500" alt="1" src="https://github.com/user-attachments/assets/c303ac1a-52ba-470a-a8ca-5289672b8938" />
+
 
 
 
@@ -117,7 +118,7 @@ Generate a chronological timeline of file system activity.
    ```bash
    fls.exe -m / -r -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01" > C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\body.txt
    ```
-   ![8](https://github.com/user-attachments/assets/669c3048-045d-4c3f-98e0-bd9955589710)
+   <img width="500" alt="2" src="https://github.com/user-attachments/assets/669c3048-045d-4c3f-98e0-bd9955589710" />
 
 2. Generate the **timeline**:
    ```bash
