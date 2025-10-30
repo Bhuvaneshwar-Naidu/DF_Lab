@@ -21,7 +21,7 @@ To identify and analyze suspicious or potentially malicious processes running on
      - `procexp64.exe` for 64-bit systems  
      - `procexp.exe` for 32-bit systems  
    - Right-click and select **Run as Administrator** to ensure full privileges.
-<img width="622" height="397" alt="Screenshot 2025-10-28 164411" src="https://github.com/user-attachments/assets/97bfcebf-dcae-46b2-a100-68d137eab64b" />
+<img width="500" alt="Screenshot 2025-10-28 164411" src="https://github.com/user-attachments/assets/97bfcebf-dcae-46b2-a100-68d137eab64b" />
 
 ---
 
@@ -77,7 +77,7 @@ To identify and analyze suspicious or potentially malicious processes running on
 ### **6️ Check Network Activity**
 - Right-click process → **Properties → TCP/IP Tab**.  
 - Monitor for unexpected network connections to unknown IPs.
-<img width="984" height="737" alt="Screenshot 2025-10-28 164425" src="https://github.com/user-attachments/assets/efac2950-6c8b-4d10-ad59-363bd6322b31" />
+<img width="500" alt="Screenshot 2025-10-28 164425" src="https://github.com/user-attachments/assets/efac2950-6c8b-4d10-ad59-363bd6322b31" />
 
 ---
 
@@ -106,7 +106,7 @@ To identify and analyze suspicious or potentially malicious processes running on
   Locate the file via **Path** and delete it if confirmed malicious.
 
 >  *Note:* Some malware prevents termination. In such cases, reboot into **Safe Mode** or use antivirus tools.
-<img width="981" height="741" alt="Screenshot 2025-10-28 164455" src="https://github.com/user-attachments/assets/e7d8238e-bf11-4b2b-b05d-00037dc0301c" />
+<img width="500" alt="Screenshot 2025-10-28 164455" src="https://github.com/user-attachments/assets/e7d8238e-bf11-4b2b-b05d-00037dc0301c" />
 
 ---
 
@@ -117,7 +117,7 @@ To identify and analyze suspicious or potentially malicious processes running on
   - Windows Defender
   - Malwarebytes Anti-Malware
 - Remove quarantined threats and restart the system.
-<img width="974" height="741" alt="Screenshot 2025-10-28 164558" src="https://github.com/user-attachments/assets/c655bbf8-9dd7-486e-8cfa-8faa93451c71" />
+<img width="500" alt="Screenshot 2025-10-28 164558" src="https://github.com/user-attachments/assets/c655bbf8-9dd7-486e-8cfa-8faa93451c71" />
 
 ---
 
@@ -132,13 +132,18 @@ To identify and analyze suspicious or potentially malicious processes running on
 
 ---
 
+# Rubrics
+| Criteria | Mark Allotted | Mark Awarded |
+|---|:---:|:---:|
+| 1. GitHub Activity & Submission Regularity | 3 | |
+| 2. Application of Forensic Tools & Practical Execution | 3 | |
+| 3. Documentation & Reporting | 2 | |
+| 4. Engagement, Problem-Solving & Team Collaboration | 2 | |
+| Total | 10 | |
+
+---
+
 ## **Result**
 Successfully utilized **Process Explorer** to monitor and analyze system processes, identify suspicious activities, and mitigate potential malware threats.
 
 ---
-
-
-- 🔗 [Microsoft Sysinternals Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)  
-- 🔗 [VirusTotal — Online Malware Scanner](https://www.virustotal.com/)  
-- 🔗 [ProcessLibrary — Process Database](https://www.processlibrary.com/)  
-- 🔗 [Windows Defender Documentation](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview)
