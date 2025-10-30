@@ -84,7 +84,7 @@ Use the **Up/Down arrow keys** to select the target disk.
 - Once correct partitions are marked:  
   - Confirm with **Write** → press **Enter**, then `y`, then **OK**.  
 - TestDisk updates the partition table automatically.
-<img width="400" alt="Test_Disk8" src="https://github.com/user-attachments/assets/11076c0f-eaef-4658-a68d-968276062251" />
+<img width="400" alt="Test_Disk8" src="https://github.com/user-attachments/assets/11076c0f-eaef-4658-a68d-968276062251" /><br><br>
 <img width="400" alt="Test_Disk9" src="https://github.com/user-attachments/assets/f04b6be8-5279-444e-abf3-2b012a18d526" />
 
 ---
