@@ -77,7 +77,7 @@ To identify and analyze suspicious or potentially malicious processes running on
 ### **6️ Check Network Activity**
 - Right-click process → **Properties → TCP/IP Tab**.  
 - Monitor for unexpected network connections to unknown IPs.
-<img width="500" alt="Screenshot 2025-10-28 164425" src="https://github.com/user-attachments/assets/efac2950-6c8b-4d10-ad59-363bd6322b31" />
+<img width="400" alt="Screenshot 2025-10-28 164425" src="https://github.com/user-attachments/assets/efac2950-6c8b-4d10-ad59-363bd6322b31" />
 
 ---
 
@@ -106,7 +106,7 @@ To identify and analyze suspicious or potentially malicious processes running on
   Locate the file via **Path** and delete it if confirmed malicious.
 
 >  *Note:* Some malware prevents termination. In such cases, reboot into **Safe Mode** or use antivirus tools.
-<img width="500" alt="Screenshot 2025-10-28 164455" src="https://github.com/user-attachments/assets/e7d8238e-bf11-4b2b-b05d-00037dc0301c" />
+<img width="400" alt="Screenshot 2025-10-28 164455" src="https://github.com/user-attachments/assets/e7d8238e-bf11-4b2b-b05d-00037dc0301c" />
 
 ---
 
@@ -117,7 +117,7 @@ To identify and analyze suspicious or potentially malicious processes running on
   - Windows Defender
   - Malwarebytes Anti-Malware
 - Remove quarantined threats and restart the system.
-<img width="500" alt="Screenshot 2025-10-28 164558" src="https://github.com/user-attachments/assets/c655bbf8-9dd7-486e-8cfa-8faa93451c71" />
+<img width="400" alt="Screenshot 2025-10-28 164558" src="https://github.com/user-attachments/assets/c655bbf8-9dd7-486e-8cfa-8faa93451c71" />
 
 ---
 
