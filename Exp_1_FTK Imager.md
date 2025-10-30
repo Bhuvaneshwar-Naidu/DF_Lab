@@ -160,6 +160,16 @@ Choose based on requirement:
 </p>
 
 ---
+## Rubrics
+| Criteria | Mark Allotted | Mark Awarded |
+|---|:---:|:---:|
+| 1. GitHub Activity & Submission Regularity | 3 | |
+| 2. Application of Forensic Tools & Practical Execution | 3 | |
+| 3. Documentation & Reporting | 2 | |
+| 4. Engagement, Problem-Solving & Team Collaboration | 2 | |
+| *Total* | *10* | |
+
+--- 
 
 ##  **Result**
 Successfully acquired the **RAM dump (.mem)** and **disk image (.E01)** of the target system using **FTK Imager**.  
