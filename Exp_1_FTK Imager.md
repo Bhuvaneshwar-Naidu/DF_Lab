@@ -90,7 +90,7 @@ Choose based on requirement:
 
 <br>
 
-<img width="500" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/93a58f63-3ef5-4f38-a2c5-5d14d5b65f81" />
+<img width="400" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/93a58f63-3ef5-4f38-a2c5-5d14d5b65f81" />
 
 
 ---
