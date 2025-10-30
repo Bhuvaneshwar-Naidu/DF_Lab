@@ -9,9 +9,6 @@ To capture plaintext **login credentials** transmitted over HTTP using **Wiresha
 - Open **Wireshark** in your Windows/Linux machine.  
 - Select the active network interface (e.g., **Wi-Fi**).  
 - Click the **blue shark fin 🦈** icon to begin capturing packets.  
-
-<br>
-<br>
 <p align="center">
  <img width="500" alt="image" src="https://github.com/user-attachments/assets/a12941af-d2e9-47e7-bef0-89c3835e874d" />
 
@@ -35,14 +32,10 @@ To capture plaintext **login credentials** transmitted over HTTP using **Wiresha
 - Submit the form.  
 - Even if the login fails, the credentials are **transmitted** in the request.  
 
-<br>
-<br>
 <p align="center">
  <img width="500" alt="image" src="https://github.com/user-attachments/assets/a3c7f719-eb84-4066-a9d8-7d554cb71d0d" />
 
 </p>
-<br>
-<br>
 
 ---
 
@@ -53,10 +46,6 @@ To capture plaintext **login credentials** transmitted over HTTP using **Wiresha
 ```wireshark
 http.request.method == "POST"
 ```
-
-
-<br>
-<br>
 <p align="center">
     <!--  Screenshot 3: HTTP POST filter applied -->
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/e1b268e5-6514-4d18-887b-3d44b07d09bf" />
@@ -72,14 +61,10 @@ http.request.method == "POST"
 You will see the submitted credentials in plaintext:
   Form item: "uname" = "Tonystark_44"
   Form item: "pass"  = "tony@1234"
-<br>
-<br>
 <p align="center">
    <img width="500" alt="image" src="https://github.com/user-attachments/assets/9cd09009-8af5-4bfe-a3f2-74e9074d70ef" />
 
 </p>
-<br>
-<br>
 
 ---
 # Rubrics
