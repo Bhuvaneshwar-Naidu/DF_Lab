@@ -4,9 +4,7 @@
 To acquire **volatile memory (RAM)** and **non-volatile memory (disk image)** from a target system using **AccessData FTK Imager**, while preserving integrity through hashing and proper documentation.
 
 ---
-
 ##  Acquiring Volatile Memory (RAM)
-
 ### Step 1: Launch FTK Imager as Administrator
 - Right-click on **FTK Imager** and select **Run as Administrator**.  
 - This ensures the tool has sufficient privileges to access system memory.
