@@ -10,9 +10,7 @@ To acquire **volatile memory (RAM)** and **non-volatile memory (disk image)** fr
 - This ensures the tool has sufficient privileges to access system memory.
 
 <br>
-
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/739f9871-3976-41c3-be50-b8a8da805b63" />
-
 <br>
 
 ---
