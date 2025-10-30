@@ -10,7 +10,7 @@ To capture plaintext **login credentials** transmitted over HTTP using **Wiresha
 - Select the active network interface (e.g., **Wi-Fi**).  
 - Click the **blue shark fin 🦈** icon to begin capturing packets.  
 <p align="center">
- <img width="500" alt="image" src="https://github.com/user-attachments/assets/a12941af-d2e9-47e7-bef0-89c3835e874d" />
+ <img width="400" alt="image" src="https://github.com/user-attachments/assets/a12941af-d2e9-47e7-bef0-89c3835e874d" />
 
 </p>
 <br>
