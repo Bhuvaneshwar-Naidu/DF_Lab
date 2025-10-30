@@ -187,7 +187,10 @@ The folder should contain files like:
 ---
 <br><br>
 ---
+
 <br><br>
+---
+
 # Rubrics
 | Criteria | Mark Allotted | Mark Awarded |
 |---|:---:|:---:|
