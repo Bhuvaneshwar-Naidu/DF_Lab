@@ -2,26 +2,19 @@
 
 ---
 
-## 🎯 **Aim**
+## **Aim**
 To extract logical data such as contacts, messages, call logs, and other user information from an Android device using **AFLogical OSE (Open Source Edition)** as part of digital forensic analysis.
 
 ---
 
-## 🧠 **Description**
-**AFLogical OSE (Open Source Edition)** is a specialized forensic tool designed for **logical data extraction** from Android devices.  
-It retrieves user data such as **contacts, SMS, MMS, call logs, and calendar entries** through Android APIs — without requiring root access.  
-This tool is a vital component of the **Open Source Android Forensics toolkit**, used in forensic investigations, research, and cybersecurity education.
+## **STEP 1 — Initial Setup & File Extraction**
 
----
-
-## ⚙️ **STEP 1 — Initial Setup & File Extraction**
-
-### 🧩 **Required Files (Pre-requisites)**
+### **Required Files (Pre-requisites)**
 - **Android Platform Tools (ADB):** For device communication  
 - **AFLogical OSE ZIP (Source/APK):** Core forensic extraction tool  
 - **Google USB Driver (Windows):** For PC-device connectivity
 
-### 🪜 **Instructions**
+### **Instructions**
 1. Create the main lab directory:
    ```bash
    C:\DF
@@ -150,11 +143,11 @@ To perform the actual data extraction from the Android device using AFLogical.
 1. Open **AFLogical** on the Android device.  
 2. Grant all necessary permissions (Contacts, SMS, Call Logs, Storage).  
 3. Select the data types to extract:
-   - 📇 Contacts  
-   - 💬 SMS  
-   - 📞 Call Logs  
-   - 📨 MMS  
-   - 📅 Calendar  
+   -  Contacts  
+   -  SMS  
+   -  Call Logs  
+   -  MMS  
+   -  Calendar  
 4. Tap **Start Extraction**.  
 5. Wait for extraction to finish.
 
@@ -191,27 +184,21 @@ The folder should contain files like:
 - `calendar.csv`
 <img width="500" alt="Screenshot 2025-10-28 132602" src="https://github.com/user-attachments/assets/5e63decb-0d69-46ef-b947-4ba6cc783ffa" />
 
+---
 
+# Rubrics
+| Criteria | Mark Allotted | Mark Awarded |
+|---|:---:|:---:|
+| 1. GitHub Activity & Submission Regularity | 3 | |
+| 2. Application of Forensic Tools & Practical Execution | 3 | |
+| 3. Documentation & Reporting | 2 | |
+| 4. Engagement, Problem-Solving & Team Collaboration | 2 | |
+| Total | 10 | |
 
 ---
 
-## 🧾 **Result**
+## **Result**
 Successfully extracted logical data (Contacts, SMS, Call Logs, etc.) from an Android device using **AFLogical OSE**, transferred it to the computer using ADB, and analyzed the extracted `.csv` files for forensic investigation.
 
 ---
 
-## 🧠 **Notes**
-- AFLogical OSE performs **logical extraction only** — it cannot retrieve deleted files.  
-- Ensure the device screen is **unlocked** during extraction.  
-- **Root access is not required**, making this suitable for standard forensic practices.  
-- Maintain **chain of custody** documentation for forensic integrity.
-
----
-
-## 📚 **Reference Links**
-- 🔗 **Android Platform Tools (ADB):** [https://developer.android.com/tools/releases/platform-tools](https://developer.android.com/tools/releases/platform-tools)  
-- 🧰 **Santoku Linux (Source for AFLogical OSE):** [https://sourceforge.net/projects/santoku/](https://sourceforge.net/projects/santoku/)  
-- ⚙️ **Google USB Driver (Windows):** [https://developer.android.com/studio/run/win-usb](https://developer.android.com/studio/run/win-usb)  
-- 💡 **AFLogical OSE GitHub Repository:** [https://github.com/nowsecure/AFLogical-Open-Source](https://github.com/nowsecure/AFLogical-Open-Source)
-
----
