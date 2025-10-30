@@ -40,6 +40,7 @@ To detect the presence of hidden data within digital images using **StegExpose**
 <img width="400" alt="4" src="https://github.com/user-attachments/assets/23f2db38-1148-410e-b5ee-d771ca214125" />
 
 ---
+<br><br>
 
 ### **Step5: Analyze the Output**
 <img width="400" alt="5" src="https://github.com/user-attachments/assets/29d581c0-7ba4-4f87-9c74-f360d859419a" />
