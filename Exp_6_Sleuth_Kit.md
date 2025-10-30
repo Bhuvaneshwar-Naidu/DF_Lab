@@ -2,21 +2,8 @@
 
 ---
 
-## 🎯 Aim
+## Aim
 To analyze a disk image and recover digital evidence using **The Sleuth Kit (TSK)** command-line tools.
-
----
-
-## 📌 Description
-**The Sleuth Kit (TSK)** is a collection of open-source command-line tools that allow forensic investigators to analyze disk images, recover deleted files, and extract metadata.  
-It supports file system analysis, partition inspection, and timeline creation — essential steps in any digital investigation.
-
-📂 **Drive Link for Tools & Evidence Files**  
-- [Digital Forensics Tools & Evidence Files](https://drive.google.com/drive/u/1/folders/1ilSFY7Tqn2L7AjQGhq8yJ8kixc_xTU-v)  
-- Files:
-  - `4Dell Latitude CPi.E01`
-  - `4Dell Latitude CPi.E02`
-
 
 ---
 
@@ -28,7 +15,7 @@ It supports file system analysis, partition inspection, and timeline creation �
 
 ---
 
-<img width="1919" height="1079" alt="1" src="https://github.com/user-attachments/assets/cb8d8d85-346e-42a0-81a8-0df9eab4f6eb" />
+<img width="500" alt="1" src="https://github.com/user-attachments/assets/cb8d8d85-346e-42a0-81a8-0df9eab4f6eb" />
 
 
 ---
@@ -52,58 +39,58 @@ It supports file system analysis, partition inspection, and timeline creation �
 
 ### Step 4: Analyze the File System
 
-#### 🔹 Navigate to Sleuth Kit:
+#### Navigate to Sleuth Kit:
 Run:
 ```bash
 cd C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\sleuthkit-4.14.0-win32\bin
 ```
 
-<img width="1479" height="771" alt="2" src="https://github.com/user-attachments/assets/2dc048db-6101-4e55-994f-47b49da9c97e" />
+<img width="500" alt="2" src="https://github.com/user-attachments/assets/2dc048db-6101-4e55-994f-47b49da9c97e" />
 
 ---
 
-#### 🔹 Identify File System Type:
+####  Identify File System Type:
 Run:
 ```bash
 fsstat.exe -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01"
 ```
 This command gives details about the file system type, layout, and structure.
 
-<img width="1488" height="922" alt="3" src="https://github.com/user-attachments/assets/206f9a59-733d-495f-a8f9-0062ec3f9506" />
+<img width="500" alt="3" src="https://github.com/user-attachments/assets/206f9a59-733d-495f-a8f9-0062ec3f9506" />
 
 
 ---
 
-#### 🔹 List Partitions:
+####  List Partitions:
 Run:
 ```bash
 mmls.exe "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01"
 ```
 This lists all partitions present in the disk image.
 
-<img width="1482" height="759" alt="4" src="https://github.com/user-attachments/assets/c46c0fcb-3b0b-4a4d-a349-fd88ceb913f6" />
+<img width="500" alt="4" src="https://github.com/user-attachments/assets/c46c0fcb-3b0b-4a4d-a349-fd88ceb913f6" />
 
 
 ---
 
-#### 🔹 List Files and Directories
+####  List Files and Directories
 Run:
 ```bash
 fls.exe -r -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01"
 ```
 This recursively lists all files and directories, including deleted ones.
 
-<img width="1237" height="920" alt="5" src="https://github.com/user-attachments/assets/db85b4f2-b476-44d1-8c89-c6e5695e90ed" />
+<img width="500" alt="5" src="https://github.com/user-attachments/assets/db85b4f2-b476-44d1-8c89-c6e5695e90ed" />
 
 
 ---
 
-#### 🔹 Recover Deleted Files
+####  Recover Deleted Files
 Run:
 ```bash
 icat.exe -o 63 "C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\4Dell Latitude CPi.E01" 11366 > C:\Users\M J B NAIDU\OneDrive\Desktop\DF Lab Exp\Exp_6\recovered_file.jpg
 ```
-<img width="1289" height="667" alt="6" src="https://github.com/user-attachments/assets/945bc934-3a5c-4dd2-8293-07e5d86c13de" />
+<img width="500" alt="6" src="https://github.com/user-attachments/assets/945bc934-3a5c-4dd2-8293-07e5d86c13de" />
 
 
 ---
@@ -167,30 +154,21 @@ This file lists the **MAC (Modified, Accessed, Changed)** timestamps of all file
 
 ---
 
-## ✅ Result
+# Rubrics
+| Criteria | Mark Allotted | Mark Awarded |
+|---|:---:|:---:|
+| 1. GitHub Activity & Submission Regularity | 3 | |
+| 2. Application of Forensic Tools & Practical Execution | 3 | |
+| 3. Documentation & Reporting | 2 | |
+| 4. Engagement, Problem-Solving & Team Collaboration | 2 | |
+| Total | 10 | |
+
+---
+
+## Result
 Successfully analyzed the given disk image using **The Sleuth Kit (TSK)**.  
 Extracted file system information, recovered deleted files, analyzed metadata, and generated a forensic timeline report.
 
 ---
 
-## 📌 Notes
-- Always analyze **forensic copies**, not the original evidence media.  
-- Maintain documentation for every step in the investigation.  
-- Ensure that all extracted evidence and reports are securely stored.  
-- The Sleuth Kit provides powerful tools like:
-  - `fsstat` — File system details  
-  - `mmls` — Partition listing  
-  - `fls` — File and directory listing  
-  - `icat` — File recovery  
-  - `istat` — Metadata extraction  
-  - `mactime` — Timeline generation  
 
----
-
-## 📚 References
-- [The Sleuth Kit Official Website](https://www.sleuthkit.org/)  
-- [Autopsy Official Documentation](https://www.autopsy.com/)  
-- Digital Forensics and Incident Response (DFIR) Tutorials  
-- Carrier, B. (2018). *File System Forensic Analysis.*
-
----
