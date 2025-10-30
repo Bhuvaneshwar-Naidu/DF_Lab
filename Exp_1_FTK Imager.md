@@ -5,7 +5,7 @@ To acquire **volatile memory (RAM)** and **non-volatile memory (disk image)** fr
 
 ---
 
-## 🔹 Acquiring Volatile Memory (RAM)
+##  Acquiring Volatile Memory (RAM)
 
 ### Step 1: Launch FTK Imager as Administrator
 - Right-click on **FTK Imager** and select **Run as Administrator**.  
@@ -39,7 +39,7 @@ In the pop-up dialog:
 - **Include Pagefile.sys (Optional)** → Captures virtual memory stored on disk.  
 - **Create AD1 File (Optional)** → Wraps output into an AccessData container.  
 
-> 💡 *Tip:* Including `pagefile.sys` can reveal hidden processes and artifacts.
+>  *Tip:* Including `pagefile.sys` can reveal hidden processes and artifacts.
 
 <br>
 
@@ -71,7 +71,7 @@ In the pop-up dialog:
 
 ---
 
-## 🔹 Acquiring Non-Volatile Memory (Disk Image)
+##  Acquiring Non-Volatile Memory (Disk Image)
 
 ### Step 1: Start Disk Imaging
 - In FTK Imager, go to **File → Create Disk Image...**
@@ -90,7 +90,7 @@ Choose based on requirement:
 - **Image File** → Re-image an existing file.  
 - **Folder / CD/DVD** → Acquire folder or removable media.
 
-> ✅ *Forensic best practice:* Always select **Physical Drive** with a **write blocker**.
+>  *Forensic best practice:* Always select **Physical Drive** with a **write blocker**.
 
 <br>
 
@@ -160,4 +160,13 @@ Choose based on requirement:
 </p>
 
 ---
+
+##  **Result**
+Successfully acquired the **RAM dump (.mem)** and **disk image (.E01)** of the target system using **FTK Imager**.  
+The **MD5/SHA1 hash values** of the acquired images were verified, confirming that the evidence was collected without alteration and is **forensically sound**.
+
+
+
+
+
 
