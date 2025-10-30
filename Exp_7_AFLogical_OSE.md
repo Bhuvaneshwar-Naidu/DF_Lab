@@ -184,7 +184,8 @@ The folder should contain files like:
 - `calllogs.csv`
 - `calendar.csv`
 <img width="500" alt="Screenshot 2025-10-28 132602" src="https://github.com/user-attachments/assets/5e63decb-0d69-46ef-b947-4ba6cc783ffa" />
-
+---
+<br><br>
 ---
 <br><br>
 # Rubrics
